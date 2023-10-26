@@ -1,0 +1,15 @@
+{
+  "name": "cypress-api-automation-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:runAllTest": "npx cypress run test",
+    "cy:openTestRunner": "npx cypress open"
+  },
+  "author": "Olatunde Oladeni",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.3"
+  }
+}
