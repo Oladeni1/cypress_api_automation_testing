@@ -20,6 +20,6 @@ Run the test from integrated terminal or
 
 Run the scripts from package.json
 
-## Contact peson
+## Contact peson for any questions or clarifications about this framework
 
 Olatunde Oladeni
