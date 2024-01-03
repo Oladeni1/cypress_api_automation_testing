@@ -9,6 +9,7 @@ describe("HTTP Request", () => {
         })
             .then((response) => {
                 expect(response.status).to.eq(204)
+                expect(response.duration).lessThan(230)
 
             })
     })

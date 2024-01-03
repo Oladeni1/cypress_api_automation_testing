@@ -18,6 +18,7 @@ describe("HTTP Request", () => {
                 expect(response.status).to.eq(201)
                 expect(response.body.name).to.eq('morpheus')
                 expect(response.body.job).to.eq('leader')
+                expect(response.duration).lessThan(85)
             })
 
     })

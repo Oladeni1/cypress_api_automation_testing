@@ -17,6 +17,7 @@ describe("HTTP Request", () => {
                 expect(response.body.data.avatar).to.eq("https://reqres.in/img/faces/2-image.jpg")
                 expect(response.body.support.url).to.eq("https://reqres.in/#support-heading")
                 expect(response.body.support.text).to.eq("To keep ReqRes free, contributions towards server costs are appreciated!")
+                expect(response.duration).lessThan(60)
 
             })
     })
